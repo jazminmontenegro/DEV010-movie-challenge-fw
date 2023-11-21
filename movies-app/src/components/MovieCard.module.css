@@ -1,0 +1,19 @@
+.movieCard{
+    list-style: none;
+    font-size:1.5rem;
+    text-align: center;
+    color: white;
+}
+.movieCard:hover{
+    opacity: 0.8;
+}
+.movieImage{
+    border-radius: 10px;
+     background-color: azure;   /*si la imagen no carga tiene un fondo */
+}
+@media(max-width:560px){
+    .moviesGrid{
+        width: 90%;
+        height: auto;
+    }
+}
