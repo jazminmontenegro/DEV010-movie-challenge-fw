@@ -1,6 +1,7 @@
 const API= 'https://api.themoviedb.org/3'
+
 export function get(path){
-    return ( // Utiliza la función fetch para hacer una solicitud GET a la API de The Movie Database.
+  return ( // Utiliza la función fetch para hacer una solicitud GET a la API de The Movie Database.
     fetch(API + path, {
       headers: {
         // Se incluye la clave de autorización en los encabezados para autenticarse con la API.
@@ -10,4 +11,4 @@ export function get(path){
     })
       // Convierte la respuesta de la solicitud a un objeto JSON.
       .then((result) => result.json())
-)}
+  )}

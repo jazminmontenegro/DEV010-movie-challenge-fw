@@ -5,9 +5,43 @@
     padding: 40px;
     justify-content: center;
 }
-.buttonNext{
-    background-color: red;
-}
+/* .buttonPrevious{
+    display: grid;
+    background-image: url('../img/flecha-izq.png');
+    background-size: cover;
+    border: none;
+    background-color: #333237;
+    padding: 22px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    
+  }
+  
+ .buttonPrevious:hover {
+    background-color: #555;
+    transform: scale(1.3); 
+   
+  }
+  .buttonNext{
+    display: grid;
+    background-image: url('../img/flecha-der.png');
+    background-size: cover;
+    border: none;
+    background-color: #333237;
+    padding: 22px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    
+  }
+  
+  .buttonNext:hover {
+    background-color: #555;
+    transform: scale(1.3); 
+   
+  } */
+
 @media(max-width:560px){
     .moviesGrid{
         grid-template-columns: 100%;

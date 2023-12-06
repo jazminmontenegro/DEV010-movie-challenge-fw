@@ -1,7 +1,15 @@
-header{
+
+header {
   background-color: #ADD4D3;
-  padding: 15px;
+  padding: 70px;
+  position: relative; /* Añade posición relativa para que el seudoelemento sea posicionado correctamente */
+  background-image: url('./img/logo-group.png');
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: 150px;
+  
 }
+
 
 body {
   margin: 0;
@@ -13,6 +21,7 @@ body {
   background-color: #333237;
   color:white;
 }
+
 
 
 code {
