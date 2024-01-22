@@ -7,6 +7,8 @@ import {BrowserRouter as Router,
   Routes,
   Link,
 } from 'react-router-dom';
+//  Componentes y utilidades proporcionadas por react-router-dom para manejar enrutamiento en la aplicación.
+
 
 export function App() {
   return (

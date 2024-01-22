@@ -8,7 +8,6 @@ export function Search() {
   const navigate = useNavigate();
   const handleSubmit = (e) =>{
     e.preventDefault();
-    //navigate.push("/?search"+ searchText);
     navigate(`/?search=`+ searchText);
   }
   return (

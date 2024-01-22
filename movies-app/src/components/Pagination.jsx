@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from 'prop-types'
 import ReactPaginate from "react-paginate"
 import styles from "./Pagination.module.css"
 
