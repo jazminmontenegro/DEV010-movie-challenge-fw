@@ -3,9 +3,40 @@
     justify-content: center;
     flex-wrap:wrap
 }
+/* .buttonImg{
+   
+    position: relative;
+    background-image: url('../img/flecha.png');
+    background-size: cover;
+    border: none;
+    background-color: #333237;
+    padding: 15px 20px;
+   cursor: pointer;
+   top:300px;
+   left: 200px;
+  } */
+  .buttonImg {
+
+    position: relative;
+    background-image: url('../img/flecha.png');
+    background-size: cover;
+    border: none;
+    background-color: #333237;
+    padding: 20px 30px;
+    cursor: pointer;
+    top: 300px;
+    left: 200px; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .buttonImg:hover {
+    background-color: #555;
+    transform: scale(1.5); 
+   
+  }
 
 .column{
-    max-width: 400px;
+    max-width: 300px;
     margin: 15px;
     height: auto;
     height: 80%;
@@ -15,7 +46,7 @@
     margin: 15px;
 }
 .movieDetails{
-    font-size:1.5rem;
+    font-size:1rem;
 }
 .firstItem{
     margin-top: 0;

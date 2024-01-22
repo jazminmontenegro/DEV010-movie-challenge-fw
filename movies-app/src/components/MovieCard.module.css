@@ -1,6 +1,6 @@
 .movieCard{
     list-style: none;
-    font-size:1.5rem;
+    font-size:1rem;
     text-align: center;
     color: white;
 }
@@ -11,6 +11,11 @@
     border-radius: 10px;
      background-color: azure;   /*si la imagen no carga tiene un fondo */
 }
+.linkOverride {
+    text-decoration: none;
+    color: inherit;
+   
+  }
 @media(max-width:560px){
     .moviesGrid{
         width: 90%;

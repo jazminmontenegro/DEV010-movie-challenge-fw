@@ -5,9 +5,8 @@
     padding: 40px;
     justify-content: center;
 }
-.buttonNext{
-    background-color: red;
-}
+
+
 @media(max-width:560px){
     .moviesGrid{
         grid-template-columns: 100%;
