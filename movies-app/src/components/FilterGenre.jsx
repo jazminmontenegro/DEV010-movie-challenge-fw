@@ -12,7 +12,6 @@ export function GenreFilter({ genres, selectedGenre, onChange }) {
 
   };
 
-  
   return ( 
     <section className={styles.container}>
       <select className={styles.SelectGenreFilter} id="genre" value={selectedGenre} onChange={(e) => handleGenreChange(e.target.value)}>
